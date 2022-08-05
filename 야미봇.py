@@ -51,7 +51,7 @@ async def on_message(message):
     #if message.content.startswith("!음악"): #음성채널에 봇을 추가 및 음악 재생
 
 access_token = os.environ["BOT_TOKEN"]
-client.run('MTAwMjQ4NDIxODEzNzQxOTc4Ng.G1PDWZ.1if0vXyF4h5tdCBFn19VmIb5iYQf2mhjuzHElo') #봇 토큰
+client.run('access_token') #봇 토큰
 
 #이거 좀 지리는데? https://youtu.be/KJWaL7X2tgU
 #24시간 구동 후보 1 https://youtu.be/rgVfIrGTavc
