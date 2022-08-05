@@ -1,4 +1,4 @@
-import discord,datetime,pytz,asyncio,re,random
+import discord,datetime,pytz,os
 
 client = discord.Client()
 
@@ -50,7 +50,7 @@ async def on_message(message):
     
     #if message.content.startswith("!음악"): #음성채널에 봇을 추가 및 음악 재생
 
-
+access_token = os.environ["BOT_TOKEN"]
 client.run('MTAwMjQ4NDIxODEzNzQxOTc4Ng.G1PDWZ.1if0vXyF4h5tdCBFn19VmIb5iYQf2mhjuzHElo') #봇 토큰
 
 #이거 좀 지리는데? https://youtu.be/KJWaL7X2tgU
